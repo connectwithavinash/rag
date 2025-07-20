@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+*.log
+.vscode
+.git
+.gitignore
+.env
+notebooks
+temp_data

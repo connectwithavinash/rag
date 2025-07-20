@@ -1,0 +1,28 @@
+[project]
+name = "uv-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[all,standard]>=0.115.13",
+    "google-genai>=1.23.0",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "openai>=1.92.2",
+    "pdfplumber>=0.11.7",
+    "pydantic-settings>=2.10.0",
+    "pymongo>=4.13.2",
+    "pymupdf>=1.26.1",
+    "python-magic>=0.4.27",
+    "python-magic-bin>=0.4.14",
+    "starlette>=0.46.2",
+    "uvicorn[standard]>=0.34.3",
+    "pytest>=7.4.0",
+    "prometheus-fastapi-instrumentator>=6.1.0",
+    "opentelemetry-api>=1.22.0",
+    "opentelemetry-sdk>=1.22.0",
+    "opentelemetry-exporter-otlp>=1.22.0",
+    "opentelemetry-instrumentation-fastapi>=0.43b0",
+    "qdrant-client[fastembed]>=1.14.3",
+]
