@@ -10,13 +10,13 @@ from .providers.llm.gemini import initialise_gemini
 from .providers.llm.openai import initialise_azure_openai
 from .schemas.error_response import ErrorResponse
 from .api.v1.routers import router as api_v1_router
-from prometheus_fastapi_instrumentator import Instrumentator
-from opentelemetry import trace
-from opentelemetry.sdk.resources import SERVICE_NAME, Resource
-from opentelemetry.sdk.trace import TracerProvider
-from opentelemetry.sdk.trace.export import BatchSpanProcessor
-from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
-from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
+# from prometheus_fastapi_instrumentator import Instrumentator
+# from opentelemetry import trace
+# from opentelemetry.sdk.resources import SERVICE_NAME, Resource
+# from opentelemetry.sdk.trace import TracerProvider
+# from opentelemetry.sdk.trace.export import BatchSpanProcessor
+# from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
+# from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
 
 
 logger = get_logger()
