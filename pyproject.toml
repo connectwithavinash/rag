@@ -25,4 +25,8 @@ dependencies = [
     "opentelemetry-exporter-otlp>=1.22.0",
     "opentelemetry-instrumentation-fastapi>=0.43b0",
     "qdrant-client[fastembed]>=1.14.3",
+    "langgraph>=0.5.3",
+    "langchain>=0.3.26",
+    "langchain-openai>=0.3.28",
+    "langchain-tavily>=0.2.10",
 ]
